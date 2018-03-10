@@ -17,7 +17,7 @@ interface UserNamePasswd {
 
 export class AppComponent {
   private dataUrl = "https://anton-flask.herokuapp.com/getUser";
-  private testResponse : any;
+  public testResponse : any;
   // private userName : string = "sarvesh";
   // private password : string  = "sarvesh123";
   public userNamePasswd: UserNamePasswd = {};
