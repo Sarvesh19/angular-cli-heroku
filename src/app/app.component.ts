@@ -20,7 +20,7 @@ export class AppComponent {
   private testResponse : any;
   // private userName : string = "sarvesh";
   // private password : string  = "sarvesh123";
-  private userNamePasswd: UserNamePasswd = {};
+  public userNamePasswd: UserNamePasswd = {};
    constructor(private myHttp: ConfigService) {
     }
 
